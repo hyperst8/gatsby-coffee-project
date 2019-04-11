@@ -44,14 +44,14 @@ https://www.iconfinder.com/webalys */}
 					<ul className="navbar-nav mx-auto">
 						{this.state.links.map((link) => {
 							return (
-								<li key={link.id} className="nav-item">
+								<li key={link.id} className="nav-item text-center">
 									<Link to={link.path} className="nav-link text-capitalize">
 										{link.text}
 									</Link>
 								</li>
 							);
 						})}
-						<li className="nav-item ml-sm-5">
+						<li className="nav-item text-center ml-sm-5">
 							<FaCartArrowDown className="cart-icon" />
 						</li>
 					</ul>
