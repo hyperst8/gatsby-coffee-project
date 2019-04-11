@@ -12,7 +12,7 @@ import Contact from '../components/Home/Contact';
 const IndexPage = ({ data }) => (
 	<Layout>
 		<SEO title="Home" keywords={[ `gatsby`, `application`, `react` ]} />
-		<BackgroundSection img={data.img.childImageSharp.fluid} title="Regular Joe's" styleClass="default-background" />
+		<BackgroundSection img={data.img.childImageSharp.fluid} title="Regular Joe's" />
 		<Info />
 		<Menu items={data.menu} />
 		<Products />
