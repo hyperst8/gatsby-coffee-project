@@ -15,12 +15,16 @@
     "gatsby-source-contentful": "^5.5.0",
     "gatsby-source-filesystem": "^3.5.0",
     "gatsby-transformer-sharp": "^2.12.1",
-    "mixin-deep": "^2.0.1",
+    "hosted-git-info": "^4.0.2",
+    "lodash": "^4.17.21",
+    "node-fetch": "^2.6.1",
     "prop-types": "^15.7.2",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
     "react-helmet": "^5.2.1",
-    "react-icons": "^3.11.0"
+    "react-icons": "^3.11.0",
+    "url-parse": "^1.5.1",
+    "yargs-parser": "^20.2.7"
   },
   "devDependencies": {
     "prettier": "^1.19.1"
